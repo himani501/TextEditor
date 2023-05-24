@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index_css.css">
+        <script src="index.js"></script>
+        <meta charset="utf-8">
+        <title>
+            Text Editor
+        </title>
+    </head>
+    <body>
+    <section>
+                <h1>TEXT EDITOR</h1>
+        <div class="panel-buttons">
+            <div class="col">
+                <button type="button" class="panel-button" id="b1" title="Bold Text" onclick="convertToBold()"><b>Bold</b></button>
+                <button type="button" class="panel-button" id="b2" title="Italic Text" onclick="convertToItalic()"><i>Italic</i></button>
+                <button type="button" class="panel-button" id="b3" title="Left Align" onclick="leftAlignTheText()">
+                    <img src="leftAlign.png">
+                </button>
+                <button type="button" class="panel-button" id="b4" title="Center Align" onclick="centerAlignTheText()">
+                    <img src="alignCenter.png">
+                </button>
+                <button type="button" class="panel-button" id="b5" title="Right Align" onclick="rightAlignTheText()">
+                    <img src="alignRight.png">
+                </button>
+                <button type="button" class="panel-button" id="b6" title="Upper Case" onclick="convertToUpperCase()">Upper Case</button>
+                <button type="button" class="panel-button" id="b7" title="Lower Case" onclick="convertToLowerCase()">Lower Case</button>
+                <button type="button" class="panel-button" id="b8" title="Capitalize Text" onclick="capitalizeText()">Capitalize Text</button>
+                <button type="button" class="panel-button" id="b9" title="Clear Text" onclick="clearText()">Clear</button>
+                <button type="button" class="panel-button" id="b10" title="Download Text" onclick="downloadText()">Download</button>
+            </div>
+        </div>
+        <br>
+        <div class="panel-body">
+            <textarea id="textarea1" class="input shadow" rows="15" cols="100" placeholder="Your text here "></textarea>
+        </div>
+    </section>
+    </body>
+</html>
